@@ -1,0 +1,102 @@
+body {
+  background-color: white;
+  color: #000678;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #62b1ff;
+}
+
+a:hover {
+  color: #b994f8;
+  text-decoration: none;
+}
+
+#navbar {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+   margin:30px;
+   padding:0px;
+}
+
+#logo {
+  height: 60px;
+}
+
+}
+
+#navbar a {
+  margin-left: 20px;
+}
+
+
+/* banner */
+
+.banner {
+  background-image: linear-gradient(0deg, rgba(244, 241, 233, 0.45)0%, rgba(255,255,255,0.6)100%),url('help children.jpeg');
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  padding: 20px 20px 150px 20px;
+  min-height: 300px;
+}
+
+.banner-content {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.banner h1 {
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+  letter-spacing: 1.2px;
+  font-size: 40px;
+}
+
+.banner p {
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+  letter-spacing: 1.1px;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+/* Cambodge */
+#container {
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+/* footer*/
+
+.footer {
+  background-color: #FADEBD;
+  color: #000000;
+  height: 200px;
+  padding: 50px;
+}
+
+.footer p {
+  color: #000000;
+  font-size: 14px;
+}
+
+.btn-primary:hover {
+  background-color: #b994f8;
+  border-color: #b994f8;
+}
+
+.navbar {
+  height: 70px;
+  box-shadow: 1px 1px 5px;
+  rgba(0,0,0,0.5);
+  display:flex;
+  align-items: center;
+  
+}
